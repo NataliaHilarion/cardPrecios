@@ -1,0 +1,19 @@
+.detail {
+  display: flex;
+  align-items: center;
+  gap: .3rem;
+  /* border: 1px solid red; */
+  padding-block-end: 1rem;
+}
+
+.detail p {
+  margin: 0;
+  font: var(--body2-regular);
+}
+
+.detail div {
+  inline-size: 20px;
+  block-size: 20px;
+  background-image: url('../images/Shape.jpg');
+  background-size: cover;
+}

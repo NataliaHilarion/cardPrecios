@@ -1,0 +1,8 @@
+.is-inactive {
+  color: #84819933;
+}
+
+.inactive {
+  filter: brightness(350%);
+}
+

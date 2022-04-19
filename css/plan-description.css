@@ -1,0 +1,15 @@
+.description>* {
+  margin: 0;
+}
+
+.description h2 {
+  padding-block-end: 10px;
+  font: var(--headline2);
+  color: var(--black);
+}
+
+.description p {
+  font: var(--body1-regular);
+  color: var(--grey);
+  padding-block-end: .5rem;
+}

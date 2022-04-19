@@ -1,0 +1,16 @@
+.header {
+  /* border: 1px solid red; */
+  inline-size: 1170px;
+  margin: auto;
+  margin-block-start: 20px;
+}
+
+.header h1{
+  font: var(--headline1);
+  margin: 0;
+}
+
+.header p{
+  font: var(--body1-regular);
+  color: var(--grey);
+}

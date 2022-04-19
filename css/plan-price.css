@@ -1,0 +1,15 @@
+.price {
+  display: flex;
+  align-items: center;
+}
+
+.price h2 {
+  margin: 0;
+  font: var(--headline2);
+  color: var(--black);
+}
+
+.price span {
+  font: var(--body1-regular);
+  color: var(--grey);
+}
