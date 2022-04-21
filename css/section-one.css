@@ -4,17 +4,6 @@
 @import url('./plan-relevant.css');
 
 
-.sectionOne{
-  /* border: 1px solid red; */
-  background: var(--white);
-  display: flex;
-  gap: 2rem;
-  margin: auto;
-  margin-block-start: 4.375rem;
-  border-radius: 1.625rem;
-  padding-inline: 2.5rem;
-}
-
 .plan{
   /* border: 1px solid green; */
   inline-size: 14.625rem;
@@ -23,43 +12,17 @@
   flex-direction: column;
   margin: auto;
   gap: 1rem;
+  border-radius: 1.625rem;
+  padding: 2rem;
+  background-color: var(--white);
+
+}
+
+.plan:nth-of-type(3){
+  background-color: var(--primary);
 }
 
 
-@media screen and (max-width: 700px) {
-  .sectionOne{
-    /* border: 1px solid red; */
-    flex-wrap: wrap;
-    flex-direction: column;
-    flex-shrink: 1;
-    flex-grow: 1;
-    align-items: center;
-    justify-content: center;
-    inline-size: 31.25rem;
-    margin: 0;
-    gap: 3rem;
-  }
-
-  .wrapper {
-    inline-size: 100vw;
-    margin-inline: 50%;
-  }
-
-  .plan{
-    order: 2;
-    padding: 1.8125rem;
-    border-radius: 1.625rem;
-    box-shadow: 0 2.625rem 2.125rem rgba(82, 67, 194, 0.295755);
-  }
-
-  .is-relevant{
-    order: 1;
-    transform: none;
-    margin-block-start: 1.5rem;
-
-  }
-
-}
 
 
 

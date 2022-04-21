@@ -1,7 +1,111 @@
 .wrapper {
-  inline-size: 73.125rem;
-  margin: auto;
-  padding-inline: 1rem;
-  /* border: 1px solid blue; */
+  display: grid;
+  grid-template-columns: 135px 1fr 1fr 1fr 1fr 135px;
+  grid-template-rows: 254px 1fr;
+  grid-template-areas: ". title title title title ."
+                       ". basico intermedio profesional plus .";
+
+}
+
+#basic {
+  /* border: 1px solid green; */
+  grid-area: basico;
+
+}
+
+#intermedio {
+  /* border: 4px solid red; */
+  grid-area: intermedio;
+
+
+}
+
+#profesional {
+  /* border: 1px solid green; */
+  grid-area: profesional;
+}
+
+#plus {
+  /* border: 1px solid red; */
+  grid-area: plus;
+
+}
+
+.header {
+  grid-area: title;
+  margin-block-start: 20px;
+
+}
+
+@media screen and (max-width: 1400px) {
+.wrapper {
+  display: grid;
+  grid-template-columns: 30px 1fr 1fr 30px;
+  grid-template-rows: 254px 1fr 1fr 1fr 1fr;
+  grid-template-areas: ". title title ."
+                       ". basico intermedio ."
+                       ". profesional plus .";
+  row-gap: 24px;
+  margin: 0;
+}
+
+#basic {
+  grid-area: intermedio;
+}
+
+#intermedio {
+  grid-area: profesional;
+}
+
+#profesional {
+  grid-area: basico;
+
+}
+
+#plus {
+  grid-area: plus;
+}
+
+.is-relevant {
+  transform: translateY(1rem);
+}
+
+}
+
+@media screen and (max-width: 900px) {
+.wrapper {
+  display: grid;
+  grid-template-columns: 30px 1fr 30px;
+  grid-template-rows: 254px 1fr 1fr 1fr 1fr;
+  grid-template-areas: ". title ."
+                       ". basico ."
+                       ". intermedio ."
+                       ". profesional ."
+                       ". plus .";
+  gap: 1px;
+  }
+
+  .plan .is-relevant {
+    transform: translateY(1rem);
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 30px 1fr 30px;
+    grid-template-rows: 400px 1fr 1fr 1fr 1fr;
+    grid-template-areas: ". title ."
+      ". basico ."
+      ". intermedio ."
+      ". profesional ."
+      ". plus .";
+    gap: 1px;
+  }
+
+  .plan .is-relevant {
+    transform: translateY(1rem);
+  }
 
 }
