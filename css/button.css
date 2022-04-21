@@ -1,11 +1,11 @@
 .button{
-  inline-size: 234px;
-  padding-inline: 32px;
-  padding-block: 12px;
+  inline-size: 14.625rem;
+  padding-inline: 2rem;
+  padding-block: .75rem;
   font: var(--body1-bold);
   color: var(--primary);
   background-color: #FF8E3C1A;
-  border-radius: 90px;
+  border-radius: 5.625rem;
   border: none;
 
 }
@@ -19,13 +19,13 @@
 }
 
 .buttonPrime{
-  inline-size: 234px;
-  padding-inline: 32px;
-  padding-block: 12px;
+  inline-size: 14.625rem;
+  padding-inline: 2rem;
+  padding-block: .75rem;
   font: var(--body1-bold);
   color: var(--white);
   background-color: var(--black);
-  border-radius: 90px;
+  border-radius: 5.625rem;
   border: none;
 }
 

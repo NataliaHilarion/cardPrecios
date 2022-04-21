@@ -2,21 +2,21 @@
   /* border: 1px solid red; */
   background: var(--primary);
   box-shadow: 0px 42px 34px rgba(82, 67, 194, 0.295755);
-  border-radius: 26px;
-  padding: 32px;
-  transform: translateY(-50px);
-  inline-size: 292px;
+  border-radius: 1.625rem;
+  padding: 2rem;
+  transform: translateY(-3.125rem);
+  inline-size: 18.25rem;
 
 }
 
 .is-relevant .popular{
-  inline-size: 120px;
+  inline-size: 7.5rem;
   background: #FFD5B6;;
-  padding-block: 6px;
-  padding-inline: 18px;
+  padding-block: .375rem;
+  padding-inline: 1.125rem;
   font: var(--caption-bold);
   text-transform: uppercase;
-  border-radius: 13.5px;
+  border-radius: .85rem;
   text-align: center;
   align-self: flex-end;
 }
@@ -32,8 +32,8 @@
 }
 
 .is-relevant .detail div {
-  inline-size: 20px;
-  block-size: 20px;
+  inline-size: 1.25rem;
+  block-size: 1.25rem;
   background-image: url('../images/check-circle-1.png');
   background-size: cover;
 }
